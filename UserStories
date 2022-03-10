@@ -129,7 +129,7 @@ Valeur Métier : 100
 
 id : 22
 En tant que : joueur 
-Je veux : que la partie se termine lorque je ne peux plus placer de pièce dans l'aire de jeu
+Je veux : que la partie se termine lorque la pièce posée dépasse la fenêtre de jeu
 Pour : terminer le jeu
 Valeur Métier : 100
 
@@ -137,6 +137,12 @@ id : 23
 En tant que : joueur 
 Je veux : me voir attribuer une nouvelle pièce lorsque je pose la pièce sélectionnée
 Pour : avancer dans le jeu
+Valeur Métier : 100
+
+id : 24
+En tant que : joueur 
+Je veux : que les lignes au dessus de(s) ligne(s) supprimée(s) descendent jusqu'à la première ligne non supprimée rencontrée 
+Pour : prolonger la partie 
 Valeur Métier : 100
 
 CRITERES D'ACCEPTATION
@@ -173,7 +179,7 @@ Alors : elle se supprime
 ref : 5
 Etant donné(s) : score actuel
 Quand : une ligne se supprime
-Alors : le score augmente d'un nombre de point défini 
+Alors : le score augmente d'un nombre de points définis
 
 ref : 6
 Etant donné(s) : pièce sélectionnée  
@@ -184,6 +190,112 @@ ref : 7
 Etant donné(s) : pièce 
 Quand : la pièce est générée 
 Alors : elle fait partie d'un catalogue prédéfini 
+
+ref : 8
+Etant donné(s) : score actuel  
+Quand : plusieurs lignes se suppriment en même temps 
+Alors : applique un coefficient multiplicateur au nombre de points ajoutés
+
+ref : 9
+Etant donné(s) : une pièce actuelle 
+Quand : elle est déposée 
+Alors : elle reste à l'écran 
+
+ref : 10
+Etant donné(s) : la pièce sélectionnée
+Quand : le joueur appuie sur la barre d'espace 
+Alors : elle pivote de 90° vers la droite
+
+ref : 11
+Etant donné(s) : le score
+Quand : la partie est encore en cours
+Alors : il reste à l'écran
+
+ref : 12
+Etant donné(s) : un profil de joueur 
+Quand : il se connecte pour la première fois
+Alors : un pseudo par défaut lui est attribué 
+
+ref : 13
+Etant donné(s) : un profil de joueur
+Quand : le joueur clique sur le bouton 'modifier pseudo' sur le menu, rempli le formulaire et valide son nouveau pseudo 
+Alors : le pseudo associé au profil est modifié
+
+ref : 14
+Etant donné(s) : un score 
+Quand : la partie est terminée et que le score fait partie des 10 scores les plus importants du profil 
+Alors : il est enregistré 
+
+ref : 14
+Etant donné(s) : le palmares des scores
+Quand : le joueur clique sur le bouton 'afficher les meilleurs scores'
+Alors : il est affiché 
+
+ref : 15
+Etant donné(s) : un profil de joueur sélectionnée
+Quand : le joueur clique sur 'déconnexion'
+Alors : le profil n'est plus sélectionné et retour menu de connexion
+
+ref : 15
+Etant donné(s) : un joueur non connecté 
+Quand : le joueur clique sur 'connexion', rempli le formulaire correctement et valide 
+Alors : le joueur est connecté au profil choisi qui devient le profil sélectionné
+
+ref : 16
+Etant donné(s) : pièce sélectionnée
+Quand : le temps écoulé depuis le dernier mouvement vertical (vers le bas) dépasse un certain seuil
+Alors : elle descend dans la grille d'une ligne et on réinitialise le temps écoulé depuis le dernier mouvement vertical à 0
+
+ref : 17
+Etant donné(s) : le score   
+Quand : le score dépasse un certain seuil
+Alors : le niveau est incrémenté de 1 
+
+ref : 18
+Etant donné(s) : la vitesse de chute   
+Quand : le niveau augmente
+Alors : la vitesse de chute augmente 
+
+ref : 19
+Etant donné(s) : le niveau 
+Quand : la partie est en cours
+Alors : le niveau est affiché 
+
+ref : 20
+Etant donné(s) : la partie
+Quand : le joueur appuie sur le bouton 'pause'
+Alors : la partie est mise en pause
+
+ref : 20
+Etant donné(s) : la partie en cours
+Quand : le joueur appuie sur le bouton 'pause'
+Alors : la partie est mise en pause
+
+ref : 20
+Etant donné(s) : la partie en pause
+Quand : le joueur appuie sur le bouton 'play'
+Alors : la partie reprend 
+
+ref : 21
+Etant donné(s) : la partie en cours
+Quand : le joueur appuie sur le bouton 'quit'
+Alors : la partie est terminée et le score est enregistré
+
+ref : 22
+Etant donné(s) : la partie en cours
+Quand : la pièce sélectionnée est posée et qu'elle dépasse la fenêtre de jeu 
+Alors : la partie est terminée et le score est enregistré
+
+ref : 23
+Etant donné(s) : la pièce sélectionnée
+Quand : la pièce est posée 
+Alors : une nouvelle pièce est générée et devient la pièce sélectionnée
+
+ref : 24
+Etant donné(s) : la fenêtre de jeu
+Quand : une ou plusieurs lignes sont supprimées
+Alors : l'espace vaccant doit être comblé par les lignes du dessus qui vont donc descendre 
+
 
 
 
