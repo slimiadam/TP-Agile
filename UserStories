@@ -1,0 +1,193 @@
+TETRIS
+
+USER STORIES 
+id : 1 
+En tant que : joueur 
+Je veux : déplacer la pièce sélectionnée 
+Pour : choisir mon point de chute
+Valeur Métier : 100
+
+id : 2 
+En tant que : joueur 
+Je veux : faire chuter la pièce sélectionnée  
+Pour : accélérer le jeu 
+Valeur Métier : 70
+
+id : 3
+En tant que : joueur 
+Je veux : activer ou désactiver la musique 
+Pour : profiter pleinement de mon expérience de jeu
+Valeur Métier : 20
+
+id : 4 
+En tant que : joueur 
+Je veux : qu'une ligne complétée soit supprimée 
+Pour : continuer le jeu
+Valeur Métier : 100 
+
+id : 5
+En tant que : joueur 
+Je veux : que mon total de point augmentent lors de la suppression d'une ligne 
+Pour : augmenter mon score
+Valeur Métier : 90
+
+id : 6
+En tant que : joueur 
+Je veux : que les pièces soient aléatoires 
+Pour : diversifier le jeu 
+Valeur Métier : 90
+
+id : 7
+En tant que : joueur 
+Je veux : que les pièces soient composées du même nombre de case (4)
+Pour : respecter les règles originales 
+Valeur Métier : 70
+
+id : 8
+En tant que : joueur 
+Je veux : que le nombre de point soient différents en fonction du nombre de ligne supprimée
+Pour : récompenser la performance et la prise de risque 
+Valeur Métier : 80
+
+id : 9
+En tant que : joueur 
+Je veux : que les pièces placées restent à l'écran
+Pour : suivre le jeu
+Valeur Métier : 100
+
+id : 10
+En tant que : joueur 
+Je veux : pouvoir pivoter la pièce sélectionnée
+Pour : choisir l'orientation de la pièce
+Valeur Métier : 100
+
+id : 11
+En tant que : joueur 
+Je veux : voir mon score
+Pour : suivre ma progression
+Valeur Métier : 90
+
+id : 12
+En tant que : joueur 
+Je veux : avoir un pseudo par défaut 
+Pour : m'identifier et jouer rapidement 
+Valeur Métier : 50
+
+id : 13
+En tant que : joueur 
+Je veux : pouvoir modifier mon pseudo
+Pour : personnaliser mon profil
+Valeur Métier : 20
+
+id : 14
+En tant que : joueur 
+Je veux : tenir un historique des meilleurs scores par pseudo 
+Pour : garder une trace de mes parties passées et me comparer à d'autres joueurs
+Valeur Métier : 40
+
+id : 15
+En tant que : joueur 
+Je veux : pouvoir changer de profil
+Pour : jouer en tant qu'une autre personne 
+Valeur Métier : 60
+
+id : 16
+En tant que : joueur 
+Je veux : que la pièce sélectionnée tombe automatiquement
+Pour : créer du challenge 
+Valeur Métier : 100
+
+id : 17
+En tant que : joueur 
+Je veux : passer des niveaux en fonction de mon score
+Pour : progresser dans le jeu
+Valeur Métier : 90
+
+id : 18
+En tant que : joueur 
+Je veux : la vitesse de chute de la pièce sélectionnée augmente en fonction du niveau
+Pour : créer du challenge 
+Valeur Métier : 100
+
+id : 19
+En tant que : joueur 
+Je veux : que mon niveau soit affiché
+Pour : connaitre ma progression 
+Valeur Métier : 90
+
+id : 20
+En tant que : joueur 
+Je veux : mettre en pause la partie 
+Pour : interrompre momentanément la partie
+Valeur Métier : 70
+
+id : 21
+En tant que : joueur 
+Je veux : pouvoir quitter la partie 
+Pour : mettre fin au jeu
+Valeur Métier : 100
+
+id : 22
+En tant que : joueur 
+Je veux : que la partie se termine lorque je ne peux plus placer de pièce dans l'aire de jeu
+Pour : terminer le jeu
+Valeur Métier : 100
+
+id : 23
+En tant que : joueur 
+Je veux : me voir attribuer une nouvelle pièce lorsque je pose la pièce sélectionnée
+Pour : avancer dans le jeu
+Valeur Métier : 100
+
+CRITERES D'ACCEPTATION
+ref : 1
+Etant donné(s) : la pièce sélectionnée 
+Quand : le joueur appuie sur la flèche droite
+Alors : la pièce se déplace à droite
+
+ref : 1
+Etant donné(s) : la pièce sélectionnée 
+Quand : le joueur appuie sur la flèche gauche
+Alors : la pièce se déplace à gauche
+
+ref : 2
+Etant donné(s) : la pièce sélectionnée 
+Quand : le joueur appuie sur la flèche du bas
+Alors : la pièce chute plus vite 
+
+ref : 3
+Etant donné(s) : la musique activée 
+Quand : le joueur appuie sur le bouton musique
+Alors : la musique se désactive 
+
+ref : 3
+Etant donné(s) : la musique desactivée 
+Quand : le joueur appuie sur le bouton musique
+Alors : la musique s'active 
+
+ref : 4
+Etant donné(s) : ligne
+Quand : une ligne est complète
+Alors : elle se supprime
+
+ref : 5
+Etant donné(s) : score actuel
+Quand : une ligne se supprime
+Alors : le score augmente d'un nombre de point défini 
+
+ref : 6
+Etant donné(s) : pièce sélectionnée  
+Quand : la pièce sélectionnée est déposée 
+Alors : la nouvelle pièce sélectionnée doit être générée de manière aléatoire 
+
+ref : 7
+Etant donné(s) : pièce 
+Quand : la pièce est générée 
+Alors : elle fait partie d'un catalogue prédéfini 
+
+
+
+
+
+
+
