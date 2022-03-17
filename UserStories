@@ -1,175 +1,214 @@
 TETRIS
 
-USER STORIES 
-id : 1 
-En tant que : joueur 
-Je veux : déplacer la pièce sélectionnée 
+USER STORIES
+id : 1
+En tant que : joueur
+Je veux : déplacer la pièce sélectionnée
 Pour : choisir mon point de chute
 Valeur Métier : 100
+complexité : 10
 
-id : 2 
-En tant que : joueur 
-Je veux : faire chuter la pièce sélectionnée  
-Pour : accélérer le jeu 
+id : 2
+En tant que : joueur
+Je veux : faire chuter la pièce sélectionnée
+Pour : accélérer le jeu
 Valeur Métier : 70
+complexité : 10
 
 id : 3
-En tant que : joueur 
-Je veux : activer ou désactiver la musique 
+En tant que : joueur
+Je veux : activer ou désactiver la musique
 Pour : profiter pleinement de mon expérience de jeu
 Valeur Métier : 20
+complexité : 5
 
-id : 4 
-En tant que : joueur 
-Je veux : qu'une ligne complétée soit supprimée 
+
+id : 4
+En tant que : joueur
+Je veux : qu'une ligne complétée soit supprimée
 Pour : continuer le jeu
-Valeur Métier : 100 
+Valeur Métier : 100
+complexité : 15
 
 id : 5
-En tant que : joueur 
-Je veux : que mon total de point augmentent lors de la suppression d'une ligne 
+En tant que : joueur
+Je veux : que mon total de point augmente lors de la suppression d'une ligne
 Pour : augmenter mon score
 Valeur Métier : 90
+complexité : 5
 
 id : 6
-En tant que : joueur 
-Je veux : que les pièces soient aléatoires 
-Pour : diversifier le jeu 
+En tant que : joueur
+Je veux : que les pièces soient aléatoires
+Pour : diversifier le jeu
 Valeur Métier : 90
+complexité : 5
 
 id : 7
-En tant que : joueur 
+En tant que : joueur
 Je veux : que les pièces soient composées du même nombre de case (4)
-Pour : respecter les règles originales 
+Pour : respecter les règles originales
 Valeur Métier : 70
+complexité : 20
 
 id : 8
-En tant que : joueur 
+En tant que : joueur
 Je veux : que le nombre de point soient différents en fonction du nombre de ligne supprimée
-Pour : récompenser la performance et la prise de risque 
+Pour : récompenser la performance et la prise de risque
 Valeur Métier : 80
+complexité : 10
 
 id : 9
-En tant que : joueur 
+En tant que : joueur
 Je veux : que les pièces placées restent à l'écran
 Pour : suivre le jeu
 Valeur Métier : 100
+complexité : 15
 
 id : 10
-En tant que : joueur 
+En tant que : joueur
 Je veux : pouvoir pivoter la pièce sélectionnée
 Pour : choisir l'orientation de la pièce
 Valeur Métier : 100
+complexité : 10
 
 id : 11
-En tant que : joueur 
+En tant que : joueur
 Je veux : voir mon score
 Pour : suivre ma progression
 Valeur Métier : 90
+complexité : 5
 
 id : 12
-En tant que : joueur 
-Je veux : avoir un pseudo par défaut 
-Pour : m'identifier et jouer rapidement 
+En tant que : joueur
+Je veux : avoir un pseudo par défaut
+Pour : m'identifier et jouer rapidement
 Valeur Métier : 50
+complexité : 10
 
 id : 13
-En tant que : joueur 
+En tant que : joueur
 Je veux : pouvoir modifier mon pseudo
 Pour : personnaliser mon profil
 Valeur Métier : 20
+complexité : 10
 
 id : 14
-En tant que : joueur 
-Je veux : tenir un historique des meilleurs scores par pseudo 
+En tant que : joueur
+Je veux : tenir un historique des meilleurs scores par pseudo
 Pour : garder une trace de mes parties passées et me comparer à d'autres joueurs
 Valeur Métier : 40
+complexité : 25
 
 id : 15
-En tant que : joueur 
+En tant que : joueur
 Je veux : pouvoir changer de profil
-Pour : jouer en tant qu'une autre personne 
+Pour : jouer en tant qu'une autre personne
 Valeur Métier : 60
+complexité : 10
 
 id : 16
-En tant que : joueur 
+En tant que : joueur
 Je veux : que la pièce sélectionnée tombe automatiquement
-Pour : créer du challenge 
+Pour : créer du challenge
 Valeur Métier : 100
+complexité : 15
 
 id : 17
-En tant que : joueur 
+En tant que : joueur
 Je veux : passer des niveaux en fonction de mon score
 Pour : progresser dans le jeu
 Valeur Métier : 90
+complexité : 15
 
 id : 18
-En tant que : joueur 
+En tant que : joueur
 Je veux : la vitesse de chute de la pièce sélectionnée augmente en fonction du niveau
-Pour : créer du challenge 
+Pour : créer du challenge
 Valeur Métier : 100
+complexité : 25
 
 id : 19
-En tant que : joueur 
+En tant que : joueur
 Je veux : que mon niveau soit affiché
-Pour : connaitre ma progression 
+Pour : connaitre ma progression
 Valeur Métier : 90
+complexité : 10
 
 id : 20
-En tant que : joueur 
-Je veux : mettre en pause la partie 
+En tant que : joueur
+Je veux : mettre en pause la partie
 Pour : interrompre momentanément la partie
 Valeur Métier : 70
+complexité : 10
 
 id : 21
-En tant que : joueur 
-Je veux : pouvoir quitter la partie 
+En tant que : joueur
+Je veux : pouvoir quitter la partie
 Pour : mettre fin au jeu
 Valeur Métier : 100
+complexité : 10
 
 id : 22
-En tant que : joueur 
+En tant que : joueur
 Je veux : que la partie se termine lorque la pièce posée dépasse la fenêtre de jeu
 Pour : terminer le jeu
 Valeur Métier : 100
+complexité : 10
 
 id : 23
-En tant que : joueur 
+En tant que : joueur
 Je veux : me voir attribuer une nouvelle pièce lorsque je pose la pièce sélectionnée
 Pour : avancer dans le jeu
 Valeur Métier : 100
+complexité : 15
 
 id : 24
-En tant que : joueur 
-Je veux : que les lignes au dessus de(s) ligne(s) supprimée(s) descendent jusqu'à la première ligne non supprimée rencontrée 
-Pour : prolonger la partie 
+En tant que : joueur
+Je veux : que les lignes au dessus de(s) ligne(s) supprimée(s) descendent jusqu'à la première ligne non supprimée rencontrée
+Pour : prolonger la partie
 Valeur Métier : 100
+complexité : 15
+
+id : 25
+En tant que : joueur
+Je veux : voir ma grille de jeu
+Pour : jouer
+Valeur Métier : 100
+complexité : 30
+
+ic : 26
+En tant que : joueur
+Je veux : avoir un profil
+Pour : enregistrer mes scores
+Valeur Métier : 70
+complexité : 20
 
 CRITERES D'ACCEPTATION
 ref : 1
-Etant donné(s) : la pièce sélectionnée 
+Etant donné(s) : la pièce sélectionnée
 Quand : le joueur appuie sur la flèche droite
 Alors : la pièce se déplace à droite
 
 ref : 1
-Etant donné(s) : la pièce sélectionnée 
+Etant donné(s) : la pièce sélectionnée
 Quand : le joueur appuie sur la flèche gauche
 Alors : la pièce se déplace à gauche
 
 ref : 2
-Etant donné(s) : la pièce sélectionnée 
+Etant donné(s) : la pièce sélectionnée
 Quand : le joueur appuie sur la flèche du bas
-Alors : la pièce chute plus vite 
+Alors : la pièce chute plus vite
 
 ref : 3
-Etant donné(s) : la musique activée 
+Etant donné(s) : la musique activée
 Quand : le joueur appuie sur le bouton musique
-Alors : la musique se désactive 
+Alors : la musique se désactive
 
 ref : 3
-Etant donné(s) : la musique desactivée 
+Etant donné(s) : la musique desactivée
 Quand : le joueur appuie sur le bouton musique
-Alors : la musique s'active 
+Alors : la musique s'active
 
 ref : 4
 Etant donné(s) : ligne
@@ -182,28 +221,28 @@ Quand : une ligne se supprime
 Alors : le score augmente d'un nombre de points définis
 
 ref : 6
-Etant donné(s) : pièce sélectionnée  
-Quand : la pièce sélectionnée est déposée 
-Alors : la nouvelle pièce sélectionnée doit être générée de manière aléatoire 
+Etant donné(s) : pièce sélectionnée
+Quand : la pièce sélectionnée est déposée
+Alors : la nouvelle pièce sélectionnée doit être générée de manière aléatoire
 
 ref : 7
-Etant donné(s) : pièce 
-Quand : la pièce est générée 
-Alors : elle fait partie d'un catalogue prédéfini 
+Etant donné(s) : pièce
+Quand : la pièce est générée
+Alors : elle fait partie d'un catalogue prédéfini
 
 ref : 8
-Etant donné(s) : score actuel  
-Quand : plusieurs lignes se suppriment en même temps 
+Etant donné(s) : score actuel
+Quand : plusieurs lignes se suppriment en même temps
 Alors : applique un coefficient multiplicateur au nombre de points ajoutés
 
 ref : 9
-Etant donné(s) : une pièce actuelle 
-Quand : elle est déposée 
-Alors : elle reste à l'écran 
+Etant donné(s) : une pièce actuelle
+Quand : elle est déposée
+Alors : elle reste à l'écran
 
 ref : 10
 Etant donné(s) : la pièce sélectionnée
-Quand : le joueur appuie sur la barre d'espace 
+Quand : le joueur appuie sur la barre d'espace
 Alors : elle pivote de 90° vers la droite
 
 ref : 11
@@ -212,24 +251,24 @@ Quand : la partie est encore en cours
 Alors : il reste à l'écran
 
 ref : 12
-Etant donné(s) : un profil de joueur 
+Etant donné(s) : un profil de joueur
 Quand : il se connecte pour la première fois
-Alors : un pseudo par défaut lui est attribué 
+Alors : un pseudo par défaut lui est attribué
 
 ref : 13
 Etant donné(s) : un profil de joueur
-Quand : le joueur clique sur le bouton 'modifier pseudo' sur le menu, rempli le formulaire et valide son nouveau pseudo 
+Quand : le joueur clique sur le bouton 'modifier pseudo' sur le menu, rempli le formulaire et valide son nouveau pseudo
 Alors : le pseudo associé au profil est modifié
 
 ref : 14
-Etant donné(s) : un score 
-Quand : la partie est terminée et que le score fait partie des 10 scores les plus importants du profil 
-Alors : il est enregistré 
+Etant donné(s) : un score
+Quand : la partie est terminée et que le score fait partie des 10 scores les plus importants du profil
+Alors : il est enregistré
 
 ref : 14
 Etant donné(s) : le palmares des scores
 Quand : le joueur clique sur le bouton 'afficher les meilleurs scores'
-Alors : il est affiché 
+Alors : il est affiché
 
 ref : 15
 Etant donné(s) : un profil de joueur sélectionnée
@@ -237,8 +276,8 @@ Quand : le joueur clique sur 'déconnexion'
 Alors : le profil n'est plus sélectionné et retour menu de connexion
 
 ref : 15
-Etant donné(s) : un joueur non connecté 
-Quand : le joueur clique sur 'connexion', rempli le formulaire correctement et valide 
+Etant donné(s) : un joueur non connecté
+Quand : le joueur clique sur 'connexion', rempli le formulaire correctement et valide
 Alors : le joueur est connecté au profil choisi qui devient le profil sélectionné
 
 ref : 16
@@ -247,19 +286,19 @@ Quand : le temps écoulé depuis le dernier mouvement vertical (vers le bas) dé
 Alors : elle descend dans la grille d'une ligne et on réinitialise le temps écoulé depuis le dernier mouvement vertical à 0
 
 ref : 17
-Etant donné(s) : le score   
+Etant donné(s) : le score
 Quand : le score dépasse un certain seuil
-Alors : le niveau est incrémenté de 1 
+Alors : le niveau est incrémenté de 1
 
 ref : 18
-Etant donné(s) : la vitesse de chute   
+Etant donné(s) : la vitesse de chute
 Quand : le niveau augmente
-Alors : la vitesse de chute augmente 
+Alors : la vitesse de chute augmente
 
 ref : 19
-Etant donné(s) : le niveau 
+Etant donné(s) : le niveau
 Quand : la partie est en cours
-Alors : le niveau est affiché 
+Alors : le niveau est affiché
 
 ref : 20
 Etant donné(s) : la partie
@@ -274,7 +313,7 @@ Alors : la partie est mise en pause
 ref : 20
 Etant donné(s) : la partie en pause
 Quand : le joueur appuie sur le bouton 'play'
-Alors : la partie reprend 
+Alors : la partie reprend
 
 ref : 21
 Etant donné(s) : la partie en cours
@@ -283,18 +322,18 @@ Alors : la partie est terminée et le score est enregistré
 
 ref : 22
 Etant donné(s) : la partie en cours
-Quand : la pièce sélectionnée est posée et qu'elle dépasse la fenêtre de jeu 
+Quand : la pièce sélectionnée est posée et qu'elle dépasse la fenêtre de jeu
 Alors : la partie est terminée et le score est enregistré
 
 ref : 23
 Etant donné(s) : la pièce sélectionnée
-Quand : la pièce est posée 
+Quand : la pièce est posée
 Alors : une nouvelle pièce est générée et devient la pièce sélectionnée
 
 ref : 24
 Etant donné(s) : la fenêtre de jeu
 Quand : une ou plusieurs lignes sont supprimées
-Alors : l'espace vaccant doit être comblé par les lignes du dessus qui vont donc descendre 
+Alors : l'espace vaccant doit être comblé par les lignes du dessus qui vont donc descendre
 
 
 
