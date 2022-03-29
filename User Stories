@@ -5,14 +5,14 @@ En tant que : joueur
 Je veux : voir la grille de jeu
 Pour : connaitre l'avancement de la partie
 Valeur Métier : 90
-Complexité :
+Complexité : 
 
 id : 2
 En tant que : joueur 
 Je veux : placer une pièce
 Pour : avancer dans le jeu
 Valeur Métier : 100
-Complexité :
+Complexité : 20
 
 id : 3
 En tant que : joueur
