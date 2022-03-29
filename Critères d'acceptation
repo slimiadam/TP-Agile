@@ -1,0 +1,154 @@
+ref : 1
+Etant donné(s) : la grille 
+Quand : la partie commence
+Alors : la grille s'affiche
+
+ref : 1 
+Etant donné(s) : la grille 
+Quand : un joueur pose une pièce
+Alors : la grille mise à jour s'affiche
+
+ref : 1
+Etant donné(s) : la grille
+Quand : la partie se termine
+Alors : la grille se réinitialise 
+
+ref : 2
+Etant donné(s) : pièce
+Quand : un tour se termine
+Alors : la pièce est placée
+
+ref : 3 
+Etant donné(s) : la grille
+Quand : un adversaire place une pièce
+Alors : la grille mise à jour est visible pour les deux joueurs
+
+ref : 4 
+Etant donné(s) : une pièce
+Quand : un joueur pose une pièce
+Alors : cette pièce prend la forme attitrée au joueur
+
+ref : 4
+Etant donné(s) : une forme de pièce
+Quand : elle est attribuée à une joueur
+Alors : elle reste liée à ce joueur pendant la totalité de la partie de manière unique 
+
+ref : 5
+Etant donné(s) : la position choisie pour la pièce
+Quand : elle est déjà occupée
+Alors : elle est invalidée 
+
+ref : 5
+Etant donné(s) : la position choisie pour la pièce
+Quand : elle est libre
+Alors : elle est validée
+
+ref : 6 
+Etant donné(s) : une pièce
+Quand : ma position complète une ligne
+Alors : la partie se termine 
+
+ref : 7 
+Etant donné(s) : une pièce
+Quand : ma position complète la grille
+Alors : la partie se termine 
+
+ref : 8 
+Etant donné(s) : un joueur 
+Quand : il gagne une partie 
+Alors : son score augmente 
+
+ref : 9 
+Etant donné(s) : un joueur 
+Quand : il modifie son pseudo 
+Alors : la modification est enregistrée dans son profil, le pseudo sera associé à ce joueur
+
+ref : 10
+Etant donné(s) : une partie 
+Quand : elle se termine
+Alors : si le joueur sélectionne rejouer, une nouvelle partie se relance
+
+ref : 11
+Etant donné(s) : le tour 
+Quand : il est joué par un joueur 
+Alors : le prochain tour sera joué par l'adversaire 
+
+ref : 12 
+Etant donné(s) : une pièce
+Quand : le joueur sélectionne une case dans la grille
+Alors : la pièce est placée à cette même position
+
+ref : 13
+Etant donné(s) : une pièce 
+Quand : elle est placée sur la grille
+Alors : sa position est immuable 
+
+ref : 14
+Etant donné(s) : une partie débutée par un joueur 
+Quand : elle se termine et qu'une autre partie est lancée
+Alors : cette partie est débutée par l'autre joueur
+
+ref : 15
+Etant donné(s) : une partie 
+Quand : le joueur rentre la dimension de la grille souhaitée
+Alors : la taille de la grille est mise à jour
+
+ref : 15
+Etant donné(s) : une grille 
+Quand : elle est dimensionnée
+Alors : elle doit rester carré
+
+ref : 16
+Etant donné(s) : une grille 
+Quand : la taille est inférieure à 5X5
+Alors : le nombre de pièce à aligner pour gagner est 3  
+
+ref : 16
+Etant donné(s) : une grille 
+Quand : la taille est supérieure ou égale à 5X5
+Alors : le nombre de pièce à aligner pour gagner est 4 
+
+ref : 17
+Etant donné(s) : tour 
+Quand : je suis terminé
+Alors : un message indiquant quel joueur doit jouer est affiché
+
+ref : 17
+Etant donné(s) : partie
+Quand : elle est lancée
+Alors : un message indiquant le début de la partie et le joueur qui commence est affiché
+
+ref : 17
+Etant donné(s) : partie
+Quand : elle est gagnée par un joueur
+Alors : un message indiquant la fin de la partie ainsi que la victoire du joueur est affiché
+
+ref : 17
+Etant donné(s) : partie
+Quand : elle est terminée sans gagnant
+Alors : un message indiquant la fin de la partie et l'égalité des joueurs est affiché
+
+ref : 17
+Etant donné(s) : partie
+Quand : elle est terminée
+Alors : un message proposant de rejouer est affiché
+
+ref : 18
+Etant donné(s) : pseudo
+Quand : je suis égal à une chaine de caractère de taille nulle 
+Alors : je suis initialisé par défaut à joueur 1 ou 2 en fonction des disponibilités 
+
+ref : 19
+Etant donné(s) : un score 
+Quand : une partie se termine 
+Alors : le score est mise à jour et enregistré  
+
+ref : 19
+Etant donné(s) : un joueur 
+Quand : je vais sur mon profil
+Alors : j'ai accès à mes anciennes performances de jeu
+
+ref : 20 
+Etant donné(s) : un profil 
+Quand : je suis initialisé par le choix du pseudo 
+Alors : une vérification est effectuée sur la liste des pseudos déja utilisés
