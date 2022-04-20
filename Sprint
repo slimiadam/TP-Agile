@@ -3,49 +3,49 @@ Définition du Sprint
 Itération n°1 (3h30 = 210)
 
 id : 2
-En tant que : joueur 
+En tant que : joueur
 Je veux : placer une pièce
 Pour : avancer dans le jeu
 Valeur Métier : 100
 Complexité : 20
 
-id : 4 
+id : 4
 En tant que : joueur
-Je veux : avoir une forme attitrée 
-Pour : me différencier de mon adversaire 
+Je veux : avoir une forme attitrée
+Pour : me différencier de mon adversaire
 Valeur Métier : 100
 Complexité : 10
 
 id : 5
 En tant que : joueur
-Je veux : ne veux pas pouvoir jouer sur une case déjà occupée 
+Je veux : ne veux pas pouvoir jouer sur une case déjà occupée
 Pour : respecter les règles
 Valeur Métier : 100
 Complexité : 15
 
 id : 6
-En tant que : joueur 
-Je veux : que la partie s'arrête lorsque 3 pièces identiques sont alignées 
+En tant que : joueur
+Je veux : que la partie s'arrête lorsque 3 pièces identiques sont alignées
 Pour : que l'un des deux joueurs gagne
-Valeur Métier : 100 
+Valeur Métier : 100
 Complexité : 25
 
 id : 7
 En tant que : joueur
-Je veux : que la partie s'arrête si toutes les cases sont occupées 
-Pour : que la partie prenne fin en cas d'égalité 
+Je veux : que la partie s'arrête si toutes les cases sont occupées
+Pour : que la partie prenne fin en cas d'égalité
 Valeur Métier : 100
 Complexité : 25
 
 id : 11
 En tant que : joueur
-Je veux : pouvoir jouer à tour de rôle avec mon adversaire 
+Je veux : pouvoir jouer à tour de rôle avec mon adversaire
 Pour : rendre le jeu équitable
 Valeur Métier : 100
 Complexité : 20
 
 id : 12
-En tant que : joueur 
+En tant que : joueur
 Je veux : pouvoir choisir la position de ma pièce
 Pour : construire ma stratégie
 Valeur Métier : 100
@@ -61,7 +61,7 @@ Complexité : 20
 id : 3
 En tant que : joueur
 Je veux : voir ou mon adversaire place ses pièces
-Pour : adapter ma stratégie 
+Pour : adapter ma stratégie
 Valeur Métier : 90
 Complexité : 20
 
@@ -74,8 +74,8 @@ Complexité : 15
 
 
 id : 10
-En tant que : joueur 
-Je veux : pouvoir recommencer une partie 
+En tant que : joueur
+Je veux : pouvoir recommencer une partie
 Pour : continuer à jouer
 Valeur Métier : 30
 Complexité : 20
@@ -86,16 +86,16 @@ Complexité : 20
 Itération n°2 (3h30 = 210)
 
 id : 8
-En tant que : joueur 
-Je veux : que les points soient comptés 
+En tant que : joueur
+Je veux : que les points soient comptés
 Pour : comparer le nombre de partie gagnée par joueur
 Valeur Métier : 50
 Complexité : 30
 
 id : 9
 En tant que : joueur
-Je veux : pouvoir choisir mon pseudonyme 
-Pour : personnaliser mon profil 
+Je veux : pouvoir choisir mon pseudonyme
+Pour : personnaliser mon profil
 Valeur Métier : 20
 Complexité : 15
 
@@ -107,15 +107,15 @@ Valeur Métier : 80
 Complexité : 15
 
 id : 15
-En tant que : joueur 
+En tant que : joueur
 Je veux : pouvoir choisir la taille de ma grille
 Pour : diversifier le jeu
 Valeur Métier : 60
 Complexité : 30
 
 id : 16
-En tant que : joueur 
-Je veux : le nombre de pièce à aligner dépende de la taille de la grille 
+En tant que : joueur
+Je veux : le nombre de pièce à aligner dépende de la taille de la grille
 Pour : diversifier le jeu
 Valeur Métier : 60
 Complexité : 30
@@ -123,14 +123,14 @@ Complexité : 30
 id : 17
 En tant que : joueur
 Je veux : que des messages m'informent de l'avancée du jeu, qui doit jouer etc
-Pour : suivre le jeu 
+Pour : suivre le jeu
 Valeur Métier : 70
 Complexité : 15
 
 id : 18
 En tant que : joueur
-Je veux : avoir un pseudo par défaut 
-Pour : m'identifier 
+Je veux : avoir un pseudo par défaut
+Pour : m'identifier
 Valeur Métier : 50
 Complexité : 10
 
@@ -143,8 +143,7 @@ Complexité : 35
 
 id : 20
 En tant que : joueur
-Je veux : que mon profil soit unique 
-Pour : m'identifier 
+Je veux : que mon profil soit unique
+Pour : m'identifier
 Valeur Métier : 20
 Complexité : 30
-
